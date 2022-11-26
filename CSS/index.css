@@ -1,0 +1,39 @@
+.collapse {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.form-label {
+  margin-right: 100px;
+}
+
+body{
+	
+	background-image:url(../IMAGES/background-shopping.jpeg);
+	
+	background-repeat:no-repeat;
+	
+	
+	
+	
+}
+
+*{
+	
+	color:white;
+	
+}
+
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+  .collapse {
+    display: inline;
+  }
+}
